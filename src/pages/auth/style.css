@@ -1,0 +1,13 @@
+.auth-wrapper {
+    height: 100vh;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -80px;
+}
+
+.auth-logo {
+    width: 70%;
+    margin: 0 auto 40px;
+}

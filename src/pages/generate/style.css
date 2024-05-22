@@ -1,0 +1,13 @@
+.generate-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.generate-note {
+    margin-top: 50px;
+    color: gray;
+}

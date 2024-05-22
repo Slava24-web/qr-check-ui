@@ -1,0 +1,73 @@
+#scanner-page, #scanner-form {
+    padding: 60px 30px 30px 30px;
+}
+
+.qr-scanner {
+    width: 100%;
+    padding-top: 50px;
+    position: relative;
+}
+
+.qr-scanner__border {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.qr-scanner:before, .qr-scanner:after, .qr-scanner__border:before, .qr-scanner__border:after {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    content: '';
+    border-color: #082346;
+    border-style: solid;
+}
+
+/* Левый верхний угол */
+.qr-scanner:before {
+    left: 0;
+    top: 0;
+    border-width: 5px 0 0 5px;
+}
+
+/* Правый верхний угол */
+.qr-scanner:after {
+    right: 0;
+    top: 0;
+    border-width: 5px 5px 0 0;
+}
+
+/* Правый нижний угол */
+.qr-scanner__border:before {
+    right: 0;
+    bottom: 0;
+    border-width: 0 5px 5px 0;
+}
+
+/* Левый нижний угол */
+.qr-scanner__border:after {
+    left: 0;
+    bottom: 0;
+    border-width: 0 0 5px 5px;
+}
+
+.qr-scanner-alert {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+}
+
+.qr-scanner-cancel-btn {
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.qr-scanner-stop-btn {
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+    right: 30px;
+}
